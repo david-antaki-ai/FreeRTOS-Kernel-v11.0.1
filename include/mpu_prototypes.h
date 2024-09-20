@@ -37,6 +37,13 @@
 
 #ifndef MPU_PROTOTYPES_H
 #define MPU_PROTOTYPES_H
+/* *INDENT-OFF* */
+#ifdef __cplusplus
+    extern "C" {
+#endif
+/* *INDENT-ON* */
+
+#error "heyyyyyyyyyyY"
 
 typedef struct xTaskGenericNotifyParams
 {
