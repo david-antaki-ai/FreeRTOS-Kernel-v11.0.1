@@ -29,6 +29,13 @@
 #ifndef MPU_WRAPPERS_H
 #define MPU_WRAPPERS_H
 
+/* *INDENT-OFF* */
+#ifdef __cplusplus
+    extern "C" {
+#endif
+/* *INDENT-ON* */
+
+#error "heyyyyyyyyyyY"
 /* This file redefines API functions to be called through a wrapper macro, but
  * only for ports that are using the MPU. */
 #if ( portUSING_MPU_WRAPPERS == 1 )
@@ -282,5 +289,10 @@
 
 #endif /* portUSING_MPU_WRAPPERS */
 
+/* *INDENT-OFF* */
+#ifdef __cplusplus
+    }
+#endif
+/* *INDENT-ON* */
 
 #endif /* MPU_WRAPPERS_H */
