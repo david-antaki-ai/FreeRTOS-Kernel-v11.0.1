@@ -4566,7 +4566,6 @@
 
     size_t MPU_xStreamBufferNextMessageLengthBytesImpl( StreamBufferHandle_t xStreamBuffer ) /* PRIVILEGED_FUNCTION */
     {
-        #error "heyyyyyyyyyy"
         size_t xReturn = 0;
         StreamBufferHandle_t xInternalStreamBufferHandle = NULL;
         int32_t lIndex;
