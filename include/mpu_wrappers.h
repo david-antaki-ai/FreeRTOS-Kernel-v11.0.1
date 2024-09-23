@@ -35,7 +35,6 @@
 #endif
 /* *INDENT-ON* */
 
-#error "heyyyyyyyyyyY"
 /* This file redefines API functions to be called through a wrapper macro, but
  * only for ports that are using the MPU. */
 #if ( portUSING_MPU_WRAPPERS == 1 )
