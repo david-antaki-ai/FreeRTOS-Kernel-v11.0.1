@@ -43,8 +43,6 @@
 #endif
 /* *INDENT-ON* */
 
-#error "heyyyyyyyyyyY"
-
 typedef struct xTaskGenericNotifyParams
 {
     TaskHandle_t xTaskToNotify;
