@@ -29,7 +29,7 @@
 
 #ifndef PORTMACRO_H
 #define PORTMACRO_H
-#error "hey"
+
 /* *INDENT-OFF* */
 #ifdef __cplusplus
     extern "C" {
