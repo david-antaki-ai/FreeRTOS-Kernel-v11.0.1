@@ -50,6 +50,7 @@
  * included here.  In this case the path to the correct portmacro.h header file
  * must be set in the compiler's include path. */
 #ifndef portENTER_CRITICAL
+#error "The path to the correct portmacro.h header file must be set in the compiler's include path."
     #include "portmacro.h"
 #endif
 
